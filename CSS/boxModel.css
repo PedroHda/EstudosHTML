@@ -1,0 +1,40 @@
+body{
+    font-family: sans-serif;
+}
+p{
+    background-color: #ccc;
+}
+h1{
+    background-color:rgb(146, 105, 105);
+    padding: 16px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+h2{
+    background-color:rgb(91, 124, 187);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.destaque{
+    background-color: orange;
+}
+.size{
+    width: 50%;
+    height: 100px;
+}
+.padding{
+    padding: 26px;
+}
+.margin{
+    margin: 50px 0 20px 100px;
+}
+.border{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.border2{
+    border: 5px dashed rgb(68, 0, 255)
+}
+.Outline{
+    outline: 5px dashed red;
+}

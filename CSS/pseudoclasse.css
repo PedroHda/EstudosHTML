@@ -1,0 +1,21 @@
+body {
+    font-family: sans-serif;
+    color: red;
+}
+a{
+    padding: 3px;
+    display: inline-block;
+}
+
+a:link{
+    color: red;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    background-color: #ccc;
+}
+a:active{
+    background-color: yellow;
+}
