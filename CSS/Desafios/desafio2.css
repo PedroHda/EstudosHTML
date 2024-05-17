@@ -48,26 +48,32 @@ a {
     text-decoration: none;
 }
 
-ul{
+ul {
     padding-left: 0;
+    margin-left: 10px;
 }
+
 li {
     list-style-position: inside;
 }
+
 .menuBar {
     text-align: end;
 }
-.menuBar li{
+
+.menuBar li {
     list-style-type: none;
     display: inline-block;
     padding: 0;
 }
-.menuBar a{
+
+.menuBar a {
     background-color: #ccc;
     padding: 16px;
     display: block;
 }
-.menuBar a:hover{
+
+.menuBar a:hover {
     background-color: #3b3b3b;
     color: #fff;
     text-decoration: none;
