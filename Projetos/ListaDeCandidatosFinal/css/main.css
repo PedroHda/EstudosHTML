@@ -1,0 +1,96 @@
+body {
+    background-color: #00fefc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.Lista {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.Lista li {
+    background-color: white;
+    border: 1px solid rgb(104, 104, 104);
+    border-radius: 20px;
+    width: 15vw;
+    height: 35vh;
+    background-image: url(../imagens/thumb01.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.imagemLista img {
+    display: flex;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    margin-top: 13vh;
+    margin-left: 5.5vw;
+}
+
+.listaItemConteudo {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid black; */
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+
+.listaItemConteudo p {
+    margin-top: .35vh;
+}
+
+.nomeItem {
+    font-size: 2rem;
+    margin-bottom: .2px;
+}
+
+.email {
+    font-size: .8rem;
+    color: #8b8b8b;
+}
+
+.acaoLista {
+    margin-top: 10px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    height: 4.6vh;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.acaoLista {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.delete {
+    width: 1vw;
+    height: 2vh;
+    /* border: 2px solid black; */
+}
+
+.delete img {
+    width: 1vw;
+    height: 2vh;
+}
+
+.edit img {
+    width: 1vw;
+    height: 2vh;
+}
