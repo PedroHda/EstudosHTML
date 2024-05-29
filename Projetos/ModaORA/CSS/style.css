@@ -1,0 +1,161 @@
+/* #region Fontes */
+@font-face {
+    font-family: Roboto;
+    src: url(../../../fonts/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: ViaodaLibre;
+    src: url(../../../fonts/ViaodaLibre-Regular.ttf);
+}
+/* #endregion */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    color: #555;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Roboto;
+    height: 100vh;
+    padding: 2rem 0 0 2rem;
+}
+
+.divPrincipal {
+    margin-top: 80rem;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+
+/* #region Header */
+header {
+    height: 93vh;
+    background-image: url(../Imagens/topo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100rem;
+}
+
+.menu {
+    background-color: #162028;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 3rem;
+    margin: 2rem -20rem 0 0;
+}
+.menu h1 {
+    font-family: ViaodaLibre;
+    color: white;
+    font-size: 4rem;
+    margin-top: 2rem;
+}
+.menu a{
+    text-decoration: none;
+    padding: 1.6rem 1.6rem .6rem 1.6rem;
+    font-size: 3rem;
+    color: #425564;
+}
+
+.menu a:hover{
+    border-bottom: 2px solid white;
+    color: whitesmoke;
+}
+/* #endregion */
+
+/* #region Main */
+
+.info__principais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info__principais h2{
+    font-size: 6rem;
+}
+.info__principais p{
+    font-size: 3rem;
+    text-align: center;
+    max-width: 120rem;
+}
+.div__li{
+    display: flex;
+    flex-direction: column;
+}
+.div__li img{
+    border-radius: 3rem 3rem 0 0;
+    width: 40rem;
+}
+.info__principais ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20rem;
+}
+
+p.produto{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+p.produto__descricao{
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+/* #endregion */
+
+/* #region ultimo Article */
+
+.ultimo__article{
+    border: 2px solid red;
+    height: 90vh;
+    background-image: url(../Imagens/bg_detalhe.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 1.6rem;
+    align-items: center;
+    justify-content: center;
+
+}
+.ultimo__article .titulo{
+    font-size: 8rem;
+    text-shadow: .3rem .3rem 0 black;
+}
+.ultimo__article .paragrafo{
+    font-size: 3rem;
+    text-align: start;
+    max-width: 102rem;
+    text-shadow: .3rem .3rem 0 black;
+}
+/* #endregion */
+/* #region Footer */
+
+footer{
+    background-color: #0b171f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+footer p{
+    color: #6f8597;
+    font-size: 2.7rem;
+}
+
+/* #endregion */
+
+
+
